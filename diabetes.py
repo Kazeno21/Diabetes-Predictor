@@ -5,10 +5,10 @@ import pylab as pl
 import numpy as np
 
 import quandl
-af = pd.read_csv('C://Users//Aryan Jalla//OneDrive//Documents//diabetes_csv.csv')
+af = pd.read_csv('C://Users//Pavan Kommisetty//OneDrive//Documents//diabetes_csv.csv')
 af.replace('tested_negative',0) 
 af.replace('tested_positive',1) 
-# af = pd.read_csv("C://Users//Aryan Jalla//OneDrive//Documents//DiabetesAtlasData.csv") 
+# af = pd.read_csv("C://Users//Pavan Kommisetty//OneDrive//Documents//DiabetesAtlasData.csv") 
 # df = quandl.get('ODA/IND_LP')
 # df = af.iloc[::-1]
 print(af.head())
